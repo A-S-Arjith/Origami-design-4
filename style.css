@@ -1,0 +1,56 @@
+h1 {
+    color: #6AFF00;
+}
+
+.header{
+    background-color: #DCB9ED;
+    display: flex;
+    justify-content: space-evenly  ;
+    border: 10px #6B238F groove;
+}
+
+.grid{
+    background-image:url(designbig.jpg);
+    display:flex;  
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    margin: 25px;
+    padding: 20px;
+    border: 10px #0095FF groove;
+    ;
+}
+.us{
+    background-color: #BFFF00;  
+    justify-content: space-around  ;
+    margin:15px ;
+    padding: 20px;
+    border: 10px #FFD400 groove;
+}
+.us a{
+    transform:translate(20%,30%)
+}
+h2,p{
+    text-align:center;
+}
+a:link{
+    color:blue
+}
+a:visited{
+    color:red
+}
+.item{
+    position:relative;
+}
+.item p{
+    position:absolute;
+    top:10%;
+    left:10%;
+    transform:translate(-30%,-30%);
+    opacity:0;
+}
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+    transform: scale(1.2);
+}
